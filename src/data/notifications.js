@@ -1,0 +1,38 @@
+export const notifications = [
+  {
+    id: 'n1',
+    title: 'Attendance Confirmed',
+    message: 'Your attendance to the German-Kosovar Business Forum was confirmed.',
+    time: '2 hours ago',
+    isRead: false,
+    icon: 'checkmark-circle',
+    iconColor: '#22C55E',
+  },
+  {
+    id: 'n2',
+    title: 'New B2B Match Found',
+    message: 'New B2B match found: Kosovo Metal Works. View your B2B requests for details.',
+    time: '5 hours ago',
+    isRead: false,
+    icon: 'people',
+    iconColor: '#1E5FA8',
+  },
+  {
+    id: 'n3',
+    title: 'Cluster Meeting Reminder',
+    message: 'Reminder: ICT & E-Commerce Cluster meeting starts tomorrow at 15:00.',
+    time: '1 day ago',
+    isRead: true,
+    icon: 'calendar',
+    iconColor: '#C9A84C',
+  },
+  {
+    id: 'n4',
+    title: 'New Members4Members Offer',
+    message: 'A new Members4Members offer is available: 20% Discount on Legal Consultation by LexKosova.',
+    time: '2 days ago',
+    isRead: true,
+    icon: 'gift',
+    iconColor: '#9333EA',
+  },
+];
